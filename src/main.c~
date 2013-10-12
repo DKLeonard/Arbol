@@ -1,5 +1,10 @@
 #include <gtk/gtk.h>
 
+typedef struct {
+    char nombre[40];
+    struct eslabon *siguiente;
+} *PERSONA;
+
 static void print_hello (GtkWidget *widget,gpointer   data)
 {
   g_print ("Hello World\n");
