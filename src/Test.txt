@@ -1,0 +1,62 @@
+Nombre de la familia
+Muñoz-Catalan
+Integrantes
+Padre: Exequiel Muñoz
+Madre: María Catalan
+Hijos: Julio, María, Jose
+
+Nombre de la familia
+Morales-Muñoz
+Integrantes
+Padre: Maximiliano Morales
+Madre: María Muñoz
+Hijos: Maximo, Camila
+
+Nombre de la familia
+Muñoz-Galvez
+Integrantes
+Padre: Gonzalo Muñoz
+Madre: Pamela Rojas
+Hijos: Carla
+
+Nombre de la familia
+Muñoz-Salinas
+Integrantes
+Padre: Fabian Muñoz
+Madre: Enilda Salinas
+Hijos: Pablo, Juan
+
+Nombre de la familia
+Muñoz-Fuentes
+Integrantes
+Padre: Pablo Muñoz
+Madre: Sofia Fuentes
+Hijos: Diego, Hector
+
+Nombre de la familia
+Muñoz-Rojas
+Integrantes
+Padre: Jose Muñoz
+Madre: Marcelina Rojas
+Hijos: Fabian, Gonzalo, Ignacio
+
+Nombre de la familia
+Muñoz-Von
+Integrantes
+Padre: Hector Muñoz
+Madre: Marcela Von
+Hijos: Edelmira, Roberto, Mauricio, Aldo
+
+Nombre de la familia
+Muñoz-Fritz
+Integrantes
+Padre: Mauricio Muñoz
+Madre: Isabela Fritz
+Hijos: sin hijos
+
+Nombre de la familia
+Morales-Bravo
+Integrantes
+Padre: Maximo Morales
+Madre: Daniela Dutch
+Hijos: sin hijos

@@ -1,0 +1,31 @@
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Nombre: Gonzalez-Rojas
+
+Padre: Ismael Gonzalez
+Madre: Edelmira Rojas
+Hijo: Juan Gonzalez
+Hijo: Ignacio Gonzalez
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Nombre: Rojas-Fuentes
+
+Padre: Juan Rojas
+Madre: Elizabeth Fuentes
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Nombre: Gonzalez-Acuna
+
+Padre: Fernando Gonzalez
+Madre: Daniela Acuna
+Hijo: Ismael Gonzalez
+Hijo: Javier Gonzalez
+Hijo: Fernanda Gonzalez
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Nombre: Munoz-Gonzalez
+
+Padre: Claudio Munoz
+Madre: Fernanda Gonzalez
+Hijo: Javier Munoz

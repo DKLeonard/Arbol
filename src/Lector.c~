@@ -1,0 +1,36 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#define rescolor "\033[0m"
+#define red "\033[0;31m"
+#define light_red "\033[1;31m"
+#define green "\033[0;32m"
+#define light_green "\033[1;32m"
+#define brown "\033[0;33m"
+#define yellow "\033[1;33m"
+#define blue "\033[0;34m"
+#define light_blue "\033[1;34m"
+#define violet "\033[0;35m"
+#define light_violet "\033[1;35m"
+#define cyan "\033[0;36m"
+#define light_cyan "\033[1;36m"
+#define light_grey "\033[0;37m"
+#define white "\033[1;37m"
+
+typedef struct _hijo {
+    char nombre [20];
+    struct _hijo *sig;
+} HIJO;
+typedef struct _familia {
+    char Madre [20];
+    char Padre [20];
+    struct HIJO* hijos;
+    struct _familia *sig;
+} FAMILIA;
+
+
+
+int main() {
+		
+
+}

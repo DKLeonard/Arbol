@@ -1,0 +1,159 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+
+typedef struct _persona {
+    char Madre [20];
+    char Padre [20];
+    char nombre [20];
+    struct _persona *sig;
+} Persona;
+
+void buffer(void);
+void extract(char*,char *,int,int);
+Persona *Buscar(char *, Persona *);
+void Crear(Persona *,char *,char *,char *);
+void Reemplazar(Persona *,char *,char *,char *);
+
+int main() {
+    FILE *archivo;
+    Persona *pers,*ref=(Persona*)malloc(sizeof (Persona));
+    char caracteres[50],aux[50],aux2[50],papa[50],*hijo,mama[50],apellido[20];
+    archivo = fopen("Test.txt","r");
+    if (archivo == NULL) return 1;
+    while (feof(archivo) == 0) {
+        fgets(caracteres,50,archivo);
+        if(strncmp(caracteres,"Nombre de la familia",20)==0) 
+            printf("...........................");
+
+        else if (strncmp(caracteres,"Padre: ",7)==0) {
+
+            extract(caracteres,papa,8,strlen(caracteres));
+            printf("%s aa",papa);
+            
+
+            if(Buscar(papa,ref)!=NULL) {
+                printf("\nFue ingresado\n");
+            }
+            else if (ref==NULL) {
+                pers=ref;
+                Crear(pers,papa,"","");
+                printf("  Creando.....\n");
+            }
+            else{
+				Crear(pers,papa,"","");
+				printf("  Creando.....\n");
+			}
+            int i=0;
+            while(papa[i]!=' ') i++;
+            i++;
+            extract(papa,apellido,i,strlen(papa));
+        }
+        else if (strncmp(caracteres,"Madre: ",7)==0) {
+            extract(caracteres,mama,8,strlen(caracteres));
+            printf("%s",mama);
+            if(Buscar(mama,ref)!=NULL) {
+                printf("  Fue ingresado\n");
+            }
+            else{
+				Crear(pers,mama,"","");
+				printf("  Creando.....\n");
+			}
+        }
+        else if (strncmp(caracteres,"Hijos: ",7)==0) {
+            extract(caracteres,aux,8,strlen(caracteres));
+            if(strncmp(caracteres,"Hijos: sin hijos",16)==0) { } else {
+                hijo=strtok(aux,", ");
+                while(hijo!=NULL) {
+                    if (hijo[strlen(hijo)-1]=='\n') {
+                        extract(hijo,aux2,1,strlen(hijo)-1);
+                    }
+                    else {
+                        strcpy(aux2,hijo);
+                    }
+                    printf("%s %s",aux2,apellido);
+                    if(Buscar(hijo,ref)!=NULL) {
+						printf("  Fue ingresado\n");
+						Reemplazar(ref,hijo,papa,mama);
+					}
+					else{
+						Crear(pers,hijo,papa,mama);
+						printf(" Creando.....\n");
+					}
+					
+                    hijo=strtok(NULL,", ");
+                }
+                
+            }
+            
+        }
+        else{
+			 printf("%s",caracteres);
+		}
+	
+    }
+    fclose(archivo);
+    return 0;
+}
+
+void Crear(Persona *pers,char *name,char *Pap,char *Mom){
+	strcpy(pers->nombre,name);
+	strcpy(pers->Madre,Mom);
+	strcpy(pers->Padre,Pap);
+	pers->sig=(Persona*)malloc (sizeof(Persona));
+	pers=pers->sig;
+}
+
+void Reemplazar(Persona *pers,char *name,char *Pap,char *Mom){
+	Persona *a=pers;
+	while(a!=NULL){
+		
+		if(strncmp(a->nombre,name,10)==0 && strcmp(a->Padre,"")==0){
+			strcpy(pers->Madre,Mom);
+			strcpy(pers->Padre,Pap);
+		}
+		a=a->sig;
+	}
+}
+
+void extract(char *s,char *d,int pos,int len) {
+    char *t;
+    t=s+len;
+    s=s+(pos-1);
+    while(s!=t) {
+        *d=*s;
+        s++;
+        d++;
+    } 
+    *d='\0';
+
+}
+Persona* Buscar(char *personaje, Persona *prim) {
+    int i=0;
+    if(prim==NULL) {
+        return NULL;
+    }
+    else {
+        Persona *a=NULL;
+        a=prim;
+        i=0;
+        while(a->sig!=NULL) {
+            if(strncmp(a->nombre,personaje,5)==0) {
+                return a;
+            }
+            else {
+                a=a->sig;
+            }
+        }
+        if(strncmp(a->nombre,personaje,5)==0) {
+            return a;
+        }
+        else {
+            return NULL;
+        }
+    }
+}
+void buffer(void) {
+    while(getchar()!='\n') {}
+}

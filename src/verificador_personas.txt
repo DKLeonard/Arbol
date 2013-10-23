@@ -1,0 +1,61 @@
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Nombre: Ismael Gonzalez
+Madre: Daniela Acuna
+Padre: Fernando Gonzalez
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Nombre: Edelmira Rojas
+Madre:  
+Padre:  
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Nombre: Juan Gonzalez
+Madre: Edelmira Rojas
+Padre: Ismael Gonzalez
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Nombre: Ignacio Gonzalez
+Madre: Edelmira Rojas
+Padre: Ismael Gonzalez
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Nombre: Juan Rojas
+Madre:  
+Padre:  
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Nombre: Elizabeth Fuentes
+Madre:  
+Padre:  
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Nombre: Fernando Gonzalez
+Madre:  
+Padre:  
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Nombre: Daniela Acuna
+Madre:  
+Padre:  
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Nombre: Javier Gonzalez
+Madre: Daniela Acuna
+Padre: Fernando Gonzalez
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Nombre: Fernanda Gonzalez
+Madre: Daniela Acuna
+Padre: Fernando Gonzalez
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Nombre: Claudio Munoz
+Madre:  
+Padre:  
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Nombre: Javier Munoz
+Madre: Fernanda Gonzalez
+Padre: Claudio Munoz

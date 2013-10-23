@@ -1,0 +1,48 @@
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+NOMBRE 
+Ismael GonzalezMADRE 
+PADRE 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+NOMBRE 
+Edelmira RojasMADRE 
+PADRE 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+NOMBRE 
+Juan  Gonzalez´PìoMADRE 
+Edelmira RojasPADRE 
+Ismael Gonzalez++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+NOMBRE 
+Ignacio   Gonzalez´Pìoà\MADRE 
+Edelmira RojasPADRE 
+Ismael Gonzalez++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+NOMBRE 
+Juan RojasMADRE 
+PADRE 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+NOMBRE 
+Elizabeth FuentesMADRE 
+PADRE 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+NOMBRE 
+Fernando GonzalezMADRE 
+PADRE 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+NOMBRE 
+Daniela AcunaMADRE 
+PADRE 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+NOMBRE 
+Ismael  GonzalezMADRE 
+Daniela AcunaPADRE 
+Fernando Gonzalez++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+NOMBRE 
+Javier  GonzalezMADRE 
+Daniela AcunaPADRE 
+Fernando Gonzalez++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+NOMBRE 
+Fernanda   GonzalezMADRE 
+Daniela AcunaPADRE 
+Fernando Gonzalez++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+NOMBRE 
+Claudio MunozMADRE 
+PADRE 
